@@ -6,11 +6,22 @@
   border-spacing: 0;
 }
 
+html, body 
+{ 
+ height: 100%;
+ overflow: hidden
+}
+
+ul {
+  list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="rgba(170, 170, 251, 0.979)" cx="7" cy="7" r="2"/></svg>');
+}
+
 .foto-perfil {
   border-radius: 50%;
-  border: 4px solid transparent;
-  background: linear-gradient(to left, rgb(75, 200, 216), rgb(36, 179, 177), rgb(18, 49, 133));
+  border: 4px transparent;
+  background: linear-gradient(to left, rgb(75, 200, 216), rgb(36, 139, 137), rgb(18, 49, 133));
   display: inline;
+  padding: 4px;
   max-width: 80px;
   margin-top: 30px;
   margin-left: 40px;
@@ -41,6 +52,7 @@ h3 {
   color: rgba(80, 80, 172, 0.847);
 }
 
+
 .container {
   display: flex;
   flex-direction: row;
@@ -50,8 +62,8 @@ h3 {
   background-color: rgb(69, 66, 66);
   width: 100%;
   height: 150px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 50px;
 }
 
 .foto {
@@ -76,9 +88,9 @@ h3 {
 .email {
   max-width: 20px;
   display: inline;
-  margin-top: 5px;
+  margin-top: 2px;
   margin-right: 20px;;
-  margin-left: 30px;
+  margin-left: 10px;
   margin-bottom: 5px;
 }
 
@@ -87,7 +99,7 @@ h3 {
   display: inline;
   margin-top: 2px;
   margin-right: 20px;;
-  margin-left: 30px;
+  margin-left: 10px;
   margin-bottom: 4px;
 }
 
@@ -96,7 +108,7 @@ h3 {
   display: inline;
   margin-top: 2px;
   margin-right: 20px;;
-  margin-left: 0px;
+  margin-left: 10px;
   margin-bottom: 5px;
 }
 
@@ -105,12 +117,11 @@ h3 {
   width: 1100px;
   height: 10px;
   text-align:center; 
-  margin-left: 5px;
-  margin-right: 100px;
+  margin-left: 70px;
+  margin-right: 50px;
   margin-top: 50px;
   text-align: left;
   font-family: 'Open Sans', sans-serif;
-  list-style: circle;
 }
 
 .perfilline::after {
@@ -131,8 +142,8 @@ h3 {
   max-width: 30px;
   display: inline;
   margin-top: 30px;
-  margin-right: 0px;;
-  margin-left: 120px;
+  margin-right: -60px;;
+  margin-left: 220px;
   margin-bottom: 10px;
 }
 
@@ -143,9 +154,9 @@ h3 {
   align-items: baseline;
   order: initial;
   width: 100%;
-  height: 200px;
-  margin-left: 100px;
-  margin-right: 100px;
+  height: 150px;
+  margin-left: 200px;
+  margin-right: 50px;
 }
 
 .hardskills {
@@ -172,7 +183,7 @@ h3 {
   max-width: 30px;
   display: inline-block;
   margin-top: 30px;
-  margin-right: 20px;;
+  margin-right: 10px;
   margin-left: 20px;
   margin-bottom: 900px;
   text-align: center;
@@ -182,7 +193,6 @@ h3 {
   width: 800px;
   height: 140px;
   font-family: 'Open Sans', sans-serif;
-  list-style: circle;
 }
 
 .ferramentasline::after {
@@ -202,7 +212,7 @@ h3 {
   max-width: 30px;
   display: inline-block;
   margin-top: 30px;
-  margin-right: 20px;;
+  margin-right: 10px;
   margin-left: 30px;
   margin-bottom: 4px;
 }
@@ -212,12 +222,11 @@ h3 {
   width: 1100px;
   height: 140px;
   text-align:center; 
-  margin-left: 5px;
+  margin-left: 100px;
   margin-right: 100px;
-  margin-top: 50px;
+  margin-top: 90px;
   text-align: left;
   font-family: 'Open Sans', sans-serif;
-  list-style: circle;
 }
 
 .formacaoline::after {
@@ -237,8 +246,8 @@ h3 {
   float: left;
   max-width: 30px;
   display: inline;
-  margin-top: 30px;
-  margin-right: 10px;;
-  margin-left: 120px;
+  margin-top: 70px;
+  margin-right: -95px;
+  margin-left: 210px;
   margin-bottom: 4px;
 }
