@@ -25,7 +25,13 @@ html, body {
 
 ul {
   list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="rgba(170, 170, 251, 0.979)" cx="7" cy="7" r="2"/></svg>');
+  margin: 2px;
 }
+
+li {
+  margin: 5px; 
+}
+
 
 .foto-perfil {
   border-radius: 50%;
@@ -71,10 +77,10 @@ h3 {
   align-items: baseline;
   order: initial;
   background-color: rgb(69, 66, 66);
-  width: 100%;
+  width: auto;
   height: 150px;
-  margin-left: 200px;
-  margin-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .foto {
@@ -106,7 +112,7 @@ h3 {
 }
 
 .github {
-  max-width: 20px;
+  max-width: 22px;
   display: inline;
   margin-top: 2px;
   margin-right: 20px;;
@@ -126,8 +132,7 @@ h3 {
 .perfil {
   display: inline-block;
   width: 1100px;
-  height: 10px;
-  text-align:center; 
+  height: 10px; 
   margin-left: 70px;
   margin-right: 50px;
   margin-top: 50px;
@@ -142,15 +147,15 @@ h3 {
   justify-content: center;
   margin-left: 90px;
   margin-right: 100px;
-  height: 2px;
-  width: 950px;
   margin-top: 0px;
   margin-bottom: -18px;
+  height: 2px;
+  width: 950px;
 }
 
 .perfil-image {
   float: left;
-  max-width: 30px;
+  max-width: 35px;
   display: inline;
   margin-top: 30px;
   margin-right: -60px;;
@@ -177,25 +182,25 @@ h3 {
 }
 
 .skills-line::after {
-  content: " ";
-  background-color: rgba(170, 170, 251, 0.979);
-  display: flex;
-  justify-content: center;
-  margin-left: 150px;
-  margin-right: 100px;
-  height: 2px;
-  width: 410px;
-  margin-top: 0px;
-  margin-bottom: -18px;
-}
+    content: " ";
+    background-color: rgba(170, 170, 251, 0.979);
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 100px;
+    height: 2px;
+    width: 410px;
+    margin-top: 0px;
+    margin-bottom: -18px;
+  }
 
 .skills-image {
-  max-width: 30px;
+  max-width: 38px;
   display: inline-block;
   margin-top: 30px;
   margin-right: 10px;
   margin-left: 20px;
-  margin-bottom: 900px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -219,7 +224,7 @@ h3 {
 }
 
 .ferramentas-image {
-  max-width: 30px;
+  max-width: 40px;
   display: inline-block;
   margin-top: 30px;
   margin-right: 10px;
@@ -231,7 +236,6 @@ h3 {
   display: inline-block;
   width: 1100px;
   height: 140px;
-  text-align:center; 
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 90px;
@@ -254,10 +258,12 @@ h3 {
 
 .formacao-image {
   float: left;
-  max-width: 30px;
+  max-width: 35px;
   display: inline;
   margin-top: 70px;
   margin-right: -95px;
   margin-left: 210px;
   margin-bottom: 4px;
 }
+
+
