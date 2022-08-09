@@ -176,7 +176,7 @@ h3 {
 
 .hard-skills {
   width: 600px;
-  height: 100px;
+  height: 800px;
   font-family: 'Open Sans', sans-serif;
   list-style-type: square;
 }
@@ -238,7 +238,7 @@ h3 {
   height: 140px;
   margin-left: 100px;
   margin-right: 100px;
-  margin-top: 90px;
+  margin-top: 190px;
   text-align: left;
   font-family: 'Open Sans', sans-serif;
 }
@@ -260,10 +260,8 @@ h3 {
   float: left;
   max-width: 35px;
   display: inline;
-  margin-top: 70px;
+  margin-top: 165px;
   margin-right: -95px;
   margin-left: 210px;
   margin-bottom: 4px;
 }
-
-
